@@ -178,8 +178,8 @@ p01         (01/18/2026 09:00:21AM)  Finished  5876 / 5876
 
 ## Known Limitations
 
-- Generated processes use random instructions. They do not yet follow a strict `PRINT` / `ADD` alternation.
+- Generated processes use random instructions.
 - Generated `ADD` always adds 1. The 1 to 10 range is not used.
 - Generated `PRINT` always logs the default `Hello world from <name>!` message.
 - `scheduler-test` and `screen-ls` are not recognized. Use `scheduler-start` and `screen -ls`.
-- `config.txt` values are not range-checked, and `SLEEP` values are not clamped to uint8.
+- `config.txt` values are not range-checked.
